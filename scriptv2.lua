@@ -34,7 +34,7 @@ if gg.isVisible() then
 gg.clearResults()
 gg.setVisible(false)
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("65537D;22339703D;45F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("65537D;31911D;45F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("300", gg.TYPE_FLOAT)
