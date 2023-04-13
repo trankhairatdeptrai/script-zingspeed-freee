@@ -110,24 +110,24 @@ mw6sds60 = gg.multiChoice({
     "1.5 [Lobby]",
     "⎋BACK"
   }, nil, "Subscribe My Youtube Channel   =====================================   	YT: F4X GAMING")
-  if mw6sds6 == nil then
+  if mw6sds600 == nil then
   else
-    if mw6sds60[1] == true then
+    if mw6sds600[1] == true then
       mwhs12()
     end
-    if mw6sds60[2] == true then
+    if mw6sds600[2] == true then
       mwhs23()
     end
-    if mw6sds60[3] == true then
+    if mw6sds600[3] == true then
       mwhs231()
     end
-    if mw6sds60[4] == true then
+    if mw6sds600[4] == true then
       mwhs232()
     end
-    if mw6sds60[5] == true then
+    if mw6sds600[5] == true then
       mwhs233()
     end
-    if mw6sds60[6] == true then
+    if mw6sds600[6] == true then
       MENUWEAPON153()
     end
   end
