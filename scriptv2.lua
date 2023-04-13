@@ -102,83 +102,10 @@ gg.clearResults()
 
 end
 function wallhack()
-mw6sds60 = gg.multiChoice({
-    "1.1 [Lobby]",
-    "1.2 [Lobby]",
-    "1.3 [Lobby]",
-    "1.4 [Lobby]",
-    "1.5 [Lobby]",
-    "⎋BACK"
-  }, nil, "Subscribe My Youtube Channel   =====================================   	YT: F4X GAMING")
-  if mw6sds600 == nil then
-  else
-    if mw6sds600[1] == true then
-      mwhs12()
-    end
-    if mw6sds600[2] == true then
-      mwhs23()
-    end
-    if mw6sds600[3] == true then
-      mwhs231()
-    end
-    if mw6sds600[4] == true then
-      mwhs232()
-    end
-    if mw6sds600[5] == true then
-      mwhs233()
-    end
-    if mw6sds600[6] == true then
-      MENUWEAPON153()
-    end
-  end
-  PUBGMH = -1
-end
-function mwhs12()
-gg.setRanges(gg.REGION_CODE_APP)
 gg.clearResults()
 gg.searchNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("1.1", gg.TYPE_FLOAT)
-gg.clearResults()
-
-end
-function mwhs23()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearResults()
-gg.searchNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("1.2", gg.TYPE_FLOAT)
-gg.clearResults()
-end
-function mwhs231()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearResults()
-gg.searchNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("1.3", gg.TYPE_FLOAT)
-gg.clearResults()
-
-end
-function mwhs232()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearResults()
-gg.searchNumber("1.00390625F;4.24794661E-39F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("1.4", gg.TYPE_FLOAT)
-gg.clearResults()
-
-end
-function mwhs233()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearResults()
-gg.searchNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("1.5", gg.TYPE_FLOAT)
 gg.clearResults()
 
 end
