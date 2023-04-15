@@ -15,7 +15,7 @@ MN1 = gg.multiChoice({
 "Nâng Cấp Động Cơ [LOBBY]",
 "Gia Tốc 1.3 [LOBBY]",
 "Auto Win Part 1 [LOBBY]",
-"Auto Win Part 2 [GAME]",
+"Auto Win Part 2 [LOBBY]",
 "🔙ʙᴀᴄᴋ"}, nil, "🛠F4X GAMING🛠")
 if MN == nil then else
 if MN1[1] == true then OneClick1() end
@@ -34,7 +34,7 @@ if gg.isVisible() then
 gg.clearResults()
 gg.setVisible(false)
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("65537D;31911D;45F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("65537D;45F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("380", gg.TYPE_FLOAT)
@@ -50,7 +50,7 @@ revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("1.5", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.clearResults()
-gg.searchNumber("0.1;45;65;50;70;300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("45;65;50;70;300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("250", gg.TYPE_FLOAT)
@@ -148,12 +148,11 @@ gg.clearResults()
 end
 function antiban1()
 gg.clearResults()
-gg.searchNumber("1.0F;85.0F;105.0F;155.0F;0.89999997616F;1.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.searchNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("2.2", gg.TYPE_FLOAT)
+gg.editAll("2.0", gg.TYPE_FLOAT)
 gg.clearResults()
-
+	
 end
 function EXIT()
 gg.alert("Follow me YT: F4X GAMING ")
