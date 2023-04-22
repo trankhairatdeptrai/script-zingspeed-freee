@@ -102,6 +102,7 @@ gg.clearResults()
 
 end
 function wallhack()
+gg.setRanges(gg.REGION_CODE_APP)
 gg.clearResults()
 gg.searchNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
@@ -147,6 +148,7 @@ gg.clearResults()
 
 end
 function antiban1()
+gg.setRanges(gg.REGION_CODE_APP)
 gg.clearResults()
 gg.searchNumber("1.00390625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
