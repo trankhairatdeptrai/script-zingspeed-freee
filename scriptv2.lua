@@ -71,6 +71,18 @@ gg.searchNumber("0.27777779102", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("0.27777779102", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
 gg.editAll("0.37777779102", gg.TYPE_FLOAT)
+
+gg.clearResults()
+
+end
+function mwhs2()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearResults()
+gg.searchNumber("0.37777779102", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("0.37777779102", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0.27777779102", gg.TYPE_FLOAT)
+gg.clearResults()
 gg.searchNumber("35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.refineNumber("35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
 revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
@@ -89,18 +101,6 @@ gg.editAll("250", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("Xong")
 gg.toast("Khải Đẹp Troai")
-gg.clearResults()
-
-end
-function mwhs2()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearResults()
-gg.searchNumber("0.37777779102", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-gg.refineNumber("0.37777779102", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
-revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("0.27777779102", gg.TYPE_FLOAT)
-gg.clearResults()
-
 end
 function wallhack()
 gg.setRanges(gg.REGION_CODE_APP)
